@@ -5,6 +5,9 @@
   "default_tg_link": "https://t.me/prostir_kor",
   "default_tg_handle": "@prostir_kor",
   "pinterest_board": "",
+  "report_bot_token": "9113636386:AAF-z_5aqC8o_IVU2KywQ3uaoA6GyctLFdk",
+  "report_chat_id": "-1003937697795",
+  "report_topic_id": 31,
   "telegram_receiver": {
     "bot_token": "9113636386:AAF-z_5aqC8o_IVU2KywQ3uaoA6GyctLFdk",
     "group_chat_id": -1003937697795,
@@ -15,7 +18,8 @@
       "fb_stories": 9,
       "pinterest": 11,
       "twitter": 13,
-      "gpt": 15
+      "gpt": 15,
+      "report": 31
     }
   },
   "schedule": {
@@ -23,8 +27,8 @@
     "gpt_only_hours": [4, 23],
     "human_delay_min_min": 7,
     "human_delay_max_min": 14,
-    "pause_between_apps_min_sec": 120,
-    "pause_between_apps_max_sec": 300
+    "pause_between_apps_min_sec": 60,
+    "pause_between_apps_max_sec": 240
   },
   "ai_cascade": [
     { "provider": "groq", "key": "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" },
@@ -52,6 +56,12 @@
     "https://t.me/+66XGxmFfIvA0NTIy",
     "https://t.me/+1S8D-YtRIotkNTBi",
     "https://t.me/+tNm_zCmeORhhYjMy"
+  ],
+  "clickbait_posts": [
+    "Більшість людей робить цю помилку щодня і навіть не підозрює, чим вона закінчується...\n\nРозв'язку та повний розбір виклали тут 👉 {link} #психологія #факти #поради",
+    "Спочатку ніхто не повірив, що це спрацює, але результат змусив усіх замовкнути...\n\nЩо саме сталося далі — дивіться у нашому Telegram 👉 {link} #історії #цікаво #україна",
+    "Лише 1 деталь змінює абсолютно все, але про неї зазвичай мовчать до останнього моменту...\n\nПовну відповідь залишили в каналі 👉 {link} #розвиток #думки #читати",
+    "Про це не скажуть у звичайних новинах, але наслідки торкнуться майже кожного вже найближчим часом...\n\nГоловні подробиці вже в нашому Telegram 👉 {link} #новини #Україна #важливо"
   ],
   "twitter_ctas": [
     "Більше корисного тут 👇",
